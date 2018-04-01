@@ -417,6 +417,7 @@ type CreateMergeRequestOptions struct {
 	TargetBranch    *string `url:"target_branch,omitempty" json:"target_branch,omitempty"`
 	AssigneeID      *int    `url:"assignee_id,omitempty" json:"assignee_id,omitempty"`
 	TargetProjectID *int    `url:"target_project_id,omitempty" json:"target_project_id,omitempty"`
+	Labels          *string `url:"labels,omitempty" json:"labels,omitempty"`
 }
 
 // CreateMergeRequest creates a new merge request.
